@@ -1,0 +1,30 @@
+{
+  "name": "mihaiz/deck",
+  "type": "library",
+  "description": "Library to describe decks for deck-building games such as Magic the Gathering or Hearthstone",
+  "keywords": [],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Mihai Zaharie",
+      "email": "mihai@zaharie.ro",
+      "homepage": "http://mihai.zaharie.ro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Deck\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Deck\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  }
+}
