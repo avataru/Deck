@@ -17,7 +17,7 @@ class Deck
      * Static builder
      * Allows chaining immediately following instantiation.
      *
-     * @param  string $name Name of the deck
+     * @param  string|null $name Name of the deck
      *
      * @return self
      */
@@ -29,7 +29,7 @@ class Deck
     /**
      * Constructor
      *
-     * @param  string $name Name of the deck
+     * @param  string|null $name Name of the deck
      */
     public function __construct($name = null)
     {
@@ -40,7 +40,7 @@ class Deck
      * Add a card to the deck
      * If the card already exists, increase the count
      *
-     * @param Deck\Card $card
+     * @param Card $card
      *
      * @return self
      */

@@ -49,7 +49,7 @@ class DeckTest extends TestCase
     /**
      * @depends testThereAreNoCardsInitially
      */
-    public function testAddingACardAndCardsGetter($deck)
+    public function testAddCardAndCardsGetter($deck)
     {
         $card = Card::make('Foo');
         $deck->addCard($card);
@@ -82,7 +82,7 @@ class DeckTest extends TestCase
         $this->assertSame(1, $cards[$otherCard->getHash()]['count']);
     }
 
-    public function testCardsAreSortedAlphabeticallyAfterAddingACard()
+    public function testCardsAreSortedAlphabeticallyAfterAddingCard()
     {
         $deck = Deck::make('Test deck');
         foreach ([

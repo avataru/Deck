@@ -148,8 +148,6 @@ class CardTest extends TestCase
         $newValue = 'bar';
         $card->setAttribute($key, $newValue);
 
-        $attributes = TestCase::readAttribute($card, 'attributes');
-
         $this->assertSame($newValue, $card->getAttribute($key));
     }
 

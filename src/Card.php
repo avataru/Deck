@@ -36,7 +36,7 @@ class Card
      * Static builder
      * Allows chaining immediately following instantiation.
      *
-     * @param  string $name Name of the card
+     * @param  string|null $name Name of the card
      *
      * @return self
      */
@@ -48,7 +48,7 @@ class Card
     /**
      * Constructor
      *
-     * @param  string $name Name of the card
+     * @param  string|null $name Name of the card
      */
     public function __construct($name = null)
     {
@@ -58,7 +58,7 @@ class Card
     /**
      * Set the card set
      *
-     * @param sring $name Set name
+     * @param string $name Set name
      *
      * @return self
      */
@@ -72,7 +72,7 @@ class Card
     /**
      * Get the card set
      *
-     * @return sring Set name
+     * @return string Set name
      */
     public function getSet()
     {
@@ -88,7 +88,7 @@ class Card
      */
     public function setTypes(array $types)
     {
-        $types = array_merge($this->types, $types);
+        $types       = array_merge($this->types, $types);
         $this->types = array_values(array_unique($types));
 
         return $this;
