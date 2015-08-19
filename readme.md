@@ -12,6 +12,12 @@ because it is rules-agnostic. However it can be extended to add a rules layer.
 
 The main reason I build this was as an exercise for unit testing.
 
+## Installation
+
+```sh
+composer require mihaiz/deck
+```
+
 ## Copyright notices
 
 Magic the Gathering images, logos and all associated marks, logos, places, names, creatures, races, characters, products and illustations are the proprietary property of © Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved, and are protected by copyright, trademark, and other intellectual property laws.
