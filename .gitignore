@@ -1,6 +1,4 @@
-.idea
 *.iml
-trash
 vendor
 composer.phar
 composer.lock
