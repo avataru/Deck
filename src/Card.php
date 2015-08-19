@@ -129,7 +129,7 @@ class Card
      */
     public function getAttribute($name)
     {
-        return (array_key_exists($name, $this->attributes)) 
+        return (array_key_exists($name, $this->attributes))
             ? $this->attributes[$name]
             : null;
     }
