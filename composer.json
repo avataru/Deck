@@ -1,8 +1,8 @@
 {
-  "name": "mihaiz/deck",
+  "name": "avataru/deck",
   "type": "library",
   "description": "Library to describe decks for deck-building games such as Magic the Gathering or Hearthstone",
-  "keywords": [],
+  "keywords": ["deck", "card", "hearthstone", "magic the gathering", "mtg"],
   "license": "GPL-3.0",
   "authors": [
     {
